@@ -2,33 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Yeojin's portfolio</title>
+    <!-- jquery load -->
+    <script
+      type="text/javascript"
+      scr="http://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav id="navbar"></nav>
-    <div class="navbar_logo">
-      <a href="#">Yeojin</a>
-    </div>
-    <div class="navbar_menu">
-      <ul class="navbar_menu">
-        <li class="navbar_menu_item">Home</li>
-        <li class="navbar_menu_item">About</li>
-        <li class="navbar_menu_item">Skills</li>
-        <li class="navbar_menu_item">My Work</li>
-        <li class="navbar_menu_item">Testimonials</li>
-        <li class="navbar_menu_item">Contact</li>
-      </ul>
-    </div>
-    <!-- About -->
+    <!-- Navbar Menu -->
+    <nav id="navbar">
+      <div class="navbar_logo">
+        <a href="#">Yeojin</a>
+      </div>
+      <div class="navbar_menu">
+        <ul class="navbar_menu">
+          <li class="navbar_menu_item">Home</li>
+          <li class="navbar_menu_item">About</li>
+          <li class="navbar_menu_item">Skills</li>
+          <li class="navbar_menu_item">My Work</li>
+          <li class="navbar_menu_item">Testimonials</li>
+          <li class="navbar_menu_item">Contact</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Home -->
+    <section id="home">
+      <img src="img/" alt="Yeojin's photo" class="home_photo" />
+      <h1 class="home_title">
+        Hello, <br />
+        I'm Yeojin
+      </h1>
+      <h2 class="home_description">My dream is FrontEnd Developer in Korea.</h2>
+      <button class="home_contact">Contact</button>
+    </section>
+
+    <!-- About Me -->
     <section id="about"></section>
     <!-- Skills -->
     <section id="skills"></section>
-    <!-- Work -->
+    <!-- Project Work -->
     <section id="work"></section>
     <!-- Testimonials -->
     <section id="testimonials"></section>
-    <!-- Contact -->
+    <!-- Contact Me -->
     <section id="contact"></section>
   </body>
 </html>
