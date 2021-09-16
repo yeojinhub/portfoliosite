@@ -45,6 +45,13 @@ ul {
   padding-left: 0;
 }
 
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 /* Typography */
 h1 {
   font-size: var(--font-large);
@@ -99,5 +106,37 @@ p {
 
 .navbar_menu_item.active {
   border: 1px solid white;
+  border-radius: var(--size-border-radius);
+}
+
+.navbar_menu_item:hover {
+  background-color: var(--color-dark-pink);
+  border-radius: var(--size-border-radius);
+}
+
+/* Home */
+#home {
+  padding: 10px;
+  text-align: center;
+}
+
+.home_photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+
+.home_title,
+.home_description {
+  color: var(--color-dark-pink);
+}
+
+.home_contact {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
 }
